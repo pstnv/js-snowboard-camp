@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NEW STAR CAMP 2023</title>
+        <link rel="icon" href="https://cdn.glitch.global/37aff9db-9aee-4073-9d88-22d330f64267/icon.png?v=1646681392581">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- MAIN -->
+        <div class="main">
+            <div class="videoCover">
+                <a class= "rider" href="https://www.instagram.com/seryoga_kordonets/" target="_blank">райдер: Сергей Кордонец</a>
+                <div class="timer">
+                    <button id="play"> <img id="imageMute" src="https://cdn.glitch.global/37aff9db-9aee-4073-9d88-22d330f64267/mute.gif?v=1646681408611"></button>
+                    <h2>До открытия:</h2>
+                    <div class="countdown">
+                        <div class="timeBlock">
+                            <h3 id="days"> 0 </h3>
+                            <p id="daysCase"> дней </p>
+                        </div>
+                        <div class="timeBlock">
+                            <h3 id="hours"> 0 </h3>
+                            <p id="hoursCase"> часов </p>
+                        </div>
+                        <div class="timeBlock">
+                            <h3 id="minutes"> 0 </h3>
+                            <p id="minutesCase"> минут </p>
+                        </div>
+                        <div class="timeBlock">
+                            <h3 id="seconds"> 0 </h3>
+                            <p id="secondsCase"> секунд </p>
+                        </div>
+                    </div>
+                </div>
+                <video id="video" src="https://cdn.glitch.global/37aff9db-9aee-4073-9d88-22d330f64267/bg_portrait.mp4?v=1646683317917" type="mp4" autoplay loop muted="true" playsinline></video>
+            </div>
+            <div class="cover">
+                <div class="menu">
+                    <div class="logo">
+                        <img class="logoImage" src="https://cdn.glitch.global/37aff9db-9aee-4073-9d88-22d330f64267/logo.png?v=1646681401580" alt="NEW STAR CAMP logo">
+                    </div>
+                    <ul class="about">
+                        <li>СПОРТИВНО-МУЗЫКАЛЬНЫЙ</li>
+                        <li>ФЕСТИВАЛЬ В ГОРАХ</li>
+                        <li>31 МАРТА - 9 АПРЕЛЯ, 2023</li>
+                        <li>«РОЗА ХУТОР», СОЧИ</li>
+                    </ul>
+                    <a class="link" href="https://newstarcamp.ru/" target="_blank"> Подробнее </a>
+                </div>
+                <footer>
+                    <hr>
+                    <p class="textFooter"> Все материалы и фотографии использованы в учебных целях </p>
+                </footer>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
