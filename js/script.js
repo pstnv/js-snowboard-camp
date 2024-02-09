@@ -12,8 +12,8 @@ return titles[ (number%100>4 && number%100<20)? 2 : cases[(number%10 < 5) ? numb
 
 function countdown () {
 
-    const campStartsDate = new Date ("March, 31 2023 00:00");
-    const campEndsDate = new Date ("April, 10 2023 00:00");
+    const campStartsDate = new Date ("March, 25 2024 00:00");
+    const campEndsDate = new Date("March, 31 2024 00:00");
     const today = new Date();
     let diff = campStartsDate - today;
 
