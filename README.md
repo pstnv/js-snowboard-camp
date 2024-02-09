@@ -1,5 +1,5 @@
 <h1> Сноуборд-контест </h1>
-<a href="https://pstnv-snowboard-camp.glitch.me/"> https://pstnv-snowboard-camp.glitch.me </a>
+<a href="https://pstnv.github.io/js-snowboard-camp/"> https://pstnv.github.io/js-snowboard-camp </a>
 
 <div align="center">
   <img src="src/preview.png">
